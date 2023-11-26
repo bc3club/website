@@ -2,6 +2,7 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 html {
@@ -27,7 +28,6 @@ header .redirect-home-header {
   margin-left: 50px;
   font-family: "Anton", sans-serif;
   font-size: 20px;
-  text-decoration: none;
   color: black;
 }
 header > div {
@@ -40,7 +40,6 @@ header > div {
   justify-content: space-between;
 }
 header > div > a {
-  text-decoration: none;
   color: black;
 }
 header > div > div {
@@ -94,7 +93,58 @@ footer .footer-wrapper {
   align-items: center;
 }
 footer .footer-wrapper .resources-footer {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer .footer-wrapper .resources-footer #external-link-img {
+  height: 25px;
+  width: 25px;
+  filter: brightness(0) invert(1);
+  opacity: 0.5;
+}
+footer .footer-wrapper .resources-footer .events-section-resources-footer {
+  display: flex;
+  flex: 1.5;
+}
+footer .footer-wrapper .resources-footer .events-section-resources-footer > div {
+  display: flex;
   flex: 1;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2f313a;
+  border-radius: 10px;
+  margin: 10px;
+}
+footer .footer-wrapper .resources-footer .events-section-resources-footer > div > p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+footer .footer-wrapper .resources-footer .links-section-resources-footer {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  padding: 20px;
+}
+footer .footer-wrapper .resources-footer .links-section-resources-footer > div {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-left: 50px;
+}
+footer .footer-wrapper .resources-footer .links-section-resources-footer > div > p {
+  color: white;
+  opacity: 0.3;
+  margin-bottom: 30px;
+}
+footer .footer-wrapper .resources-footer .links-section-resources-footer > div > a {
+  color: white;
+  opacity: 0.8;
+  margin-bottom: 10px;
 }
 footer .footer-wrapper .divider-line-footer {
   background-color: white;
