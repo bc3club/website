@@ -79,7 +79,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   background-color: #121316;
 }
@@ -168,4 +168,21 @@ footer .footer-wrapper .socials-wrapper-footer > p {
 footer .footer-wrapper .socials-wrapper-footer > div {
   height: 100%;
   width: 50%;
+}
+
+.credits {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.credits > p,
+.credits i {
+  font-size: 14px;
+  color: white;
+  opacity: 0.3;
+}
+.credits > p,
+.credits i:hover {
+  cursor: pointer;
 }
