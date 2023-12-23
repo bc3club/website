@@ -30,3 +30,10 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+// Removing Spline Watermark
+
+window.onload = function () {
+  var shadowRoot = document.querySelector("spline-viewer").shadowRoot;
+  shadowRoot.querySelector("#logo").remove();
+};

@@ -23,6 +23,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 header .bc3-text {
   margin-left: 50px;
@@ -61,10 +62,13 @@ header > div > div > p {
 }
 .landing-pg > img {
   margin-top: 70px;
-  margin-left: 300px;
-  border-radius: 10px;
+  margin-right: 100px;
   height: 60%;
   width: 60%;
+  border-radius: 30px;
+}
+.landing-pg > spline-viewer {
+  margin-left: -50px;
 }
 
 .sample {

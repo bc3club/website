@@ -24,6 +24,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
   .bc3-text {
     margin-left: 50px;
     font-family: "Anton", sans-serif;
@@ -62,10 +63,14 @@ header {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   > img {
     margin-top: 70px;
-    margin-left: 300px;
-    border-radius: 10px;
+    margin-right: 100px;
     height: 60%;
     width: 60%;
+    border-radius: 30px;
+  }
+
+  > spline-viewer {
+    margin-left: -50px;
   }
 }
 
