@@ -1,75 +1,130 @@
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  font-family: roboto;
-}
-
-html {
-  height: 100%;
-  width: 100%;
-  background-color: #f9fcff;
-  background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
-}
-
-header {
-  height: 20vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  > p {
-    font-size: 50px;
-    font-weight: bold;
-    color: rgb(32, 32, 32);
-  }
-}
 
 body {
-  height: 100%;
-  width: 100%;
-  > section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 60vh;
-    width: 100%;
-    > p {
-      font-size: 30px;
-      margin-bottom: 30px;
-      font-weight: bold;
-    }
-    > div {
-      height: 250px;
-      width: 250px;
-      border-radius: 10px;
-      background-color: white;
-      overflow: hidden;
-      box-shadow: 0 2px 4px rgba(0, 0, 50, 0.3);
-
-      > div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        > button {
-          height: 50px;
-          width: 50%;
-          background-color: white;
-          border: none;
-          border-radius: 10px;
-          margin-bottom: 10px;
-        }
-      }
-      > img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-    }
-  }
+  background-image: url('../assets/media/bg6.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
 }
+
+h1 {color: #171717;
+  font-family: Century Gothic;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 44px;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding: 20px 0;
+  font-size:29px;
+}
+
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.member {
+  background-color: #fafafa51;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0px 0px 10px 0px rgb(130, 127, 127);
+  text-align: center;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.member:hover {
+  background-color:#1b19198f ;
+  color:rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px 5px rgba(60, 10, 10, 0.345);
+  transform: scale(1.05);
+}
+
+.member img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.member h3 {
+  font-family: Candara;
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.member p {
+  font-size: 18px;
+  margin: 10px 0;
+  font-family: Lucida Bright;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;  
+}
+
+.carousel .member {
+  flex: 0 0 auto;
+  margin: 20px;
+  width: 300px;
+  scroll-snap-align: start;
+}
+
+.linkedin {
+  color:aliceblue;
+  background-color: #00aeff;
+  border: none;
+  border-radius: 50%; 
+  width: 50px; 
+  height: 50px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+.call {
+  color:rgb(0, 0, 0);
+  background-color: #dadee4;
+  border: none;
+  border-radius: 50%; 
+  width: 50px; 
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+
+
+.linkedin:hover {
+  color: #00aeff;
+  background-color:#dadee4;
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1); 
+  transform: scale(1.03);
+}
+.call:hover {
+  color: #ffffff;
+  background-color: rgb(55, 54, 54);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1); 
+  transform: scale(1.03);
+}
+

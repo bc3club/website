@@ -1,42 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Team</title>
-    <link rel="stylesheet" href="styles/our-team.css" />
-    <script src="assets/our-team/our-team.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <p>Meet Our Team</p>
-    </header>
-    <section class="faculty-section">
-      <p>Faculty</p>
-      <div class="card">
-        <img src="assets/media/dr-simarpreet.png" alt="" />
-        <div class="card-info">
-          <button
-            onclick="window.open('https://www.bennett.edu.in/faculties/dr-simar-preet-singh/', '_blank');"
-          >
-            Contact
-          </button>
-          <button
-            onclick="window.open('https://www.linkedin.com/in/drsimarpreetsingh/', '_blank');"
-          >
-            Linked In
-          </button>
-          <button
-            onclick="window.open('https://simarpreetsingh.com/', '_blank');"
-          >
-            Portfolio
-          </button>
-        </div>
-      </div>
-    </section>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/our-team.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="assets/our-team/our-team.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.28/bundled/lenis.min.js"></script>
-  </body>
+</head>
+<body>
+    <h1>Meet Our Team</h1>
+    <h2>FACULTY</h2>
+    <div class="team-section">
+    <div class="member">
+        <img src="./assets/media/simarpreet.png" alt="Simarpreet">
+        <h3>Dr. Simar Preet Singh</h3>
+        <p>Head Faculty</p>
+    <button class="call "onclick="window.open('https://www.bennett.edu.in/faculties/dr-simar-preet-singh/', '_blank')">
+        <i class="fas fa-phone-alt"></i>
+    </button>
+<button class="linkedin"  onclick="window.open('https://www.linkedin.com/in/drsimarpreetsingh/', '_blank')">
+    <i class="fab fa-linkedin-in"></i>
+</button>
+ </div>
+  <div class="member">
+        <img src="./assets/media/sumitsir.jpg" alt="Simarpreet">
+        <h3>Dr Sumit Badotra</h3>
+        <p>Head Faculty</p>
+    <button class="call "onclick="window.open('https://www.bennett.edu.in/faculties/dr-sumit-badotra/', '_blank')">
+        <i class="fas fa-phone-alt"></i>
+    </button>
+<button class="linkedin"  onclick="window.open('https://www.linkedin.com/in/sumit-badotra-phd-6256754a/', '_blank')">
+    <i class="fab fa-linkedin-in"></i>
+</button>
+    </div>
+    </div>
+    
+
+    <h2> CORE TEAM</h2>
+    <div class="team-section">
+        <div class="member">
+            <img src="./assets/media/C.png" alt="Yash Singh">
+            <h3>Yash Singh</h3>
+            <button class="linkedin"  onclick="window.open('https://www.linkedin.com/in/yash-singh-bc3/', '_blank')">
+                <i class="fab fa-linkedin-in"></i>
+            </button>
+        </div>
+        <div class="member">
+            <img src="./assets/media/VC.png" alt="Vidushi Singh">
+            <h3>Vidushi Singh</h3>
+            <button class="linkedin"  onclick="window.open('https://www.linkedin.com/in/vidushisingh1/', '_blank')">
+                <i class="fab fa-linkedin-in"></i>
+            </button>
+        </div>
+        <div class="member">
+            <img src="./assets/media/SEC.png" alt="Nishant Attrey">
+            <h3>Nishant Attrey</h3>
+            <button class="linkedin"  onclick="window.open('https://www.linkedin.com/in/nishant-attrey-0bb332255/', '_blank')">
+                <i class="fab fa-linkedin-in"></i>
+            </button>
+        </div>
+    </div>
+
+    <h2>INDUSTRY CONNECT</h2>
+    <div class="center-content">
+    <div class="team-section">
+        <div class="member">
+            <img src="./assets/media/indus.jpg" alt="Rachit Khurana">
+            <h3>Rachit Khurana</h3>
+            <button class="linkedin"  onclick="window.open('https://www.linkedin.com/in/rachitkhurana1/', '_blank')">
+                <i class="fab fa-linkedin-in"></i>
+            </button>
+        </div>
+    </div>
+    </div>
+
+<h2>TECHNICAL TEAM</h2>
+<div id="carousel" class="carousel">
+    <div class="member">
+        <img src="./assets/media/TH.png" alt="Jatin Sinha">
+        <h3>Jatin Sinha</h3>
+       
+    </div>
+    <div class="member">
+        <img src="./assets/media/TCH.png" alt="Vaibhav S. Kaushik">
+        <h3>Vaibhav S. Kaushik</h3>
+        
+    </div>
+    <div class="member">
+        <img src="./assets/media/TC1.png" alt="Pranjal Gupta">
+        <h3>Pranjal Gupta</h3>
+        
+    </div>
+    <div class="member">
+        <img src="./assets/media/TC2.png" alt="Ishaan Goyal">
+        <h3>Ishaan Goyal</h3>
+        
+    </div>
+    <div class="member">
+        <img src="./assets/media/TC3.png" alt="Rashmika Kashyap">
+        <h3>Rashmika Kashyap</h3>
+        
+    </div>
+    <div class="member">
+        <img src="./assets/media/TC4.png" alt="Rishi Agrawal">
+        <h3>Rishi Agrawal</h3>
+        
+    </div>
+    <div class="member">
+        <img src="./assets/media/TC5.png" alt="Aditya Gupta">
+        <h3>Aditya Gupta</h3>
+        
+    </div>
+</div>
+
+<h2>MANAGEMENT TEAM</h2>
+<div id="carousel" class="carousel">
+
+    <div class="member">
+        <img src="./assets/media/MH.png" alt="Yash Kumar">
+        <h3>Yash Kumar</h3>
+        
+    </div>
+    <div class="member">
+        <img src="./assets/media/MCh.png" alt="Arindam Rawat">
+        <h3>Arindam Rawat</h3>
+    
+    </div>
+    <div class="member">
+        <img src="./assets/media/MCH2.png" alt="Nikhil Mangla">
+        <h3>Nikhil Mangla</h3>
+       
+    </div>
+    <div class="member">
+        <img src="./assets/media/MC1.png" alt="Siddham Jain">
+        <h3>Siddham Jain</h3>
+       
+    </div>
+    <div class="member">
+        <img src="./assets/media/MC2.png" alt="Akshit Saini">
+        <h3>Akshit Saini</h3>
+       
+    </div>
+    <div class="member">
+        <img src="./assets/media/MC3.png" alt="Dev Chaudhary">
+        <h3>Dev Chaudhary</h3>
+    
+    </div>
+    <div class="member">
+        <img src="./assets/media/MC4.png" alt="Juhi Agarwal">
+        <h3>Juhi Agarwal</h3>
+        
+    </div>
+    <div class="member">
+        <img src="./assets/media/MC5.png" alt="Priyanshu Kumar">
+        <h3>Priyanshu Kumar</h3>
+        
+    </div>
+</div>
+
+<h2>DESIGN TEAM</h2>
+    <div class="team-section">
+        <div class="member">
+            <img src="./assets/media/DH.png" alt="Parth Mishra">
+            <h3>Parth Mishra</h3>
+        </div>
+        <div class="member">
+            <img src="./assets/media/DCH.png" alt="Vaibhavee Singh">
+            <h3>Vaibhavee Singh</h3>
+        </div>
+    </div>
+    <h2>PR and Social Media Team</h2>
+    <div class="center-content">
+    <div class="team-section">
+        <div class="member">
+            <img src="./assets/media/PCH.png" alt="Pratibha">
+            <h3>Pratibha</h3>
+        </div>
+    </div>
+    </div>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+
+</body>
 </html>
