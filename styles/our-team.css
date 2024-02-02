@@ -1,16 +1,14 @@
 body {
-  background-image: url("../assets/media/bg6.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: auto;
+  margin: 0;
+  padding: 0;
 }
-
 h1 {
-  color: #171717;
+  color: #ffffff;
   font-family: Century Gothic;
   text-align: center;
   padding: 20px 0;
   font-size: 44px;
+  margin-top: 0;
 }
 
 h2 {
@@ -18,6 +16,7 @@ h2 {
   text-align: center;
   padding: 20px 0;
   font-size: 29px;
+  color: #b6cdf1;
 }
 
 .team-section {
@@ -28,7 +27,7 @@ h2 {
 }
 
 .member {
-  background-color: rgba(250, 250, 250, 0.3176470588);
+  background-color: rgba(0, 195, 255, 0.468);
   margin: 20px;
   width: 300px;
   box-shadow: 0px 0px 10px 0px rgb(130, 127, 127);
@@ -55,6 +54,7 @@ h2 {
   font-family: Candara;
   font-size: 26px;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 .member p {
@@ -91,38 +91,56 @@ h2 {
 
 .linkedin {
   color: aliceblue;
-  background-color: #00aeff;
+  background-image: linear-gradient(rgba(240, 248, 255, 0.825), #00aeff);
   border: none;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   margin: 10px;
 }
 
 .call {
-  color: rgb(0, 0, 0);
+  background-image: linear-gradient(#c5c7c8, #282929);
+  color: rgb(255, 255, 255);
   background-color: #dadee4;
   border: none;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   margin: 10px;
 }
 
 .linkedin:hover {
-  color: #00aeff;
-  background-color: #dadee4;
-  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+  color: #040404;
+  background-image: linear-gradient(to left, #f1f1f1, hsl(196, 100%, 52%));
+  box-shadow: 0px 0px 15px 5px rgba(232, 230, 230, 0.552);
   transform: scale(1.03);
 }
 
 .call:hover {
-  color: #ffffff;
-  background-color: rgb(55, 54, 54);
-  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+  color: #3b3939;
+  background-image: linear-gradient(to left, #c5c7c8, #8c8f8f);
+  box-shadow: 0px 0px 15px 5px rgba(214, 214, 214, 0.399);
   transform: scale(1.03);
-}/*# sourceMappingURL=our-team.css.map */
+}
+
+.past {
+  background-color: rgba(250, 250, 250, 0.3176470588);
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0px 0px 10px 0px rgb(130, 127, 127);
+  text-align: center;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.past-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
