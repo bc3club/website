@@ -2,15 +2,27 @@ body {
   margin: 0;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 h1 {
   color: #ffffff;
   font-family: Century Gothic;
   text-align: center;
   padding: 20px 0;
+  padding-top: 60px;
   font-size: 44px;
   margin-top: 0;
 }
 
+.bgvideo {
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;

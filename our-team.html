@@ -6,21 +6,29 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link rel="stylesheet" href="styles/cursor.css" />
+
+    <script src="assets/main/main.js" defer></script>
+
+    <script src="assets/cursor/cursor.js" defer></script>
+    
     <script src="assets/our-team/our-team.js"></script>
   </head>
   <body>
-    <img
-      style="
-        z-index: -1;
-        height: 100vh;
-        width: 100vw;
-        position: fixed;
-        object-fit: fill;
-      "
-      src="assets/media/bgg.gif"
-      alt=""
-    />
-    <div>
+    <div class="cursor"></div>
+    <div class="bgvideo">
+      <video
+        class="background-video"
+        autoplay
+        loop
+        muted
+        poster="assets/media/bgvid.mp4"
+      >
+        <source src="assets/media/bgvid.mp4" type="video/mp4" />
+    </video>
+    </div>
+
+  
       <h1>Meet Our Team</h1>
       <h2>FACULTY</h2>
       <div class="team-section">
